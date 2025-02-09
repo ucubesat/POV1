@@ -39,11 +39,11 @@ namespace POVModule {
       //!
       //! Port for receiving image data
       void imageReceive_handler(
-          FwIndexType portNum, //!< The port number
-          U32 imageSize, //!< Size of the image in bytes
-          U32 resolution, //!< Resolution of the image
-          const Fw::Buffer& data //!< The image buffer to send
-      ) override;
+        FwIndexType portNum, //!< The port number
+        U32 imageSize, //!< Size of the image in bytes
+        U32 resolution, //!< Resolution of the image
+        Fw::Buffer& data //!< The image buffer to send
+    ) override;
 
     PRIVATE:
 

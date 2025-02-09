@@ -8,6 +8,6 @@ module POVModule {
     port ImageSend(
         imageSize: U32 @< Size of the image in bytes
         resolution: U32 @< Resolution of the image
-        data: Fw.Buffer @< The image buffer to send
+        ref data: Fw.Buffer @< The image buffer to send
     )
 }

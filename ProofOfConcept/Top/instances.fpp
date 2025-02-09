@@ -1,4 +1,4 @@
-module TestDeployment {
+module ProofOfConcept {
 
   # ----------------------------------------------------------------------
   # Defaults
@@ -103,7 +103,7 @@ module TestDeployment {
   # Passive component instances
   # ----------------------------------------------------------------------
 
-  instance camera: POVModule.Camera base id 0x1E00
+  instance camera: POVModule.USBCamera base id 0x1E00
 
   @ Communications driver. May be swapped with other com drivers like UART or TCP
   instance comDriver: Drv.TcpClient base id 0x4000

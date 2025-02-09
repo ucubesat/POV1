@@ -1,10 +1,10 @@
 // ======================================================================
-// \title  Camera.cpp
+// \title  USBCamera.cpp
 // \author agilsoul
-// \brief  cpp file for Camera component implementation class
+// \brief  cpp file for USBCamera component implementation class
 // ======================================================================
 
-#include "Components/Camera/Camera.hpp"
+#include "Components/USBCamera/USBCamera.hpp"
 #include "FpConfig.hpp"
 
 namespace POVModule {
@@ -13,15 +13,15 @@ namespace POVModule {
   // Component construction and destruction
   // ----------------------------------------------------------------------
 
-  Camera ::
-    Camera(const char* const compName) :
-      CameraComponentBase(compName)
+  USBCamera ::
+    USBCamera(const char* const compName) :
+      USBCameraComponentBase(compName)
   {
 
   }
 
-  Camera ::
-    ~Camera()
+  USBCamera ::
+    ~USBCamera()
   {
 
   }
@@ -30,7 +30,7 @@ namespace POVModule {
   // Handler implementations for user-defined typed input ports
   // ----------------------------------------------------------------------
 
-  void Camera ::
+  void USBCamera ::
     imageRequest_handler(FwIndexType portNum)
   {
     // Request buffer
@@ -54,7 +54,6 @@ namespace POVModule {
       // Send the image data to the Driver
       this->imageSend_out(0, this->imageSize, this->imageResolution, imgBuffer);
     }
-
   }
 
 }

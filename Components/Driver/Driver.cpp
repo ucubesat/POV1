@@ -35,14 +35,13 @@ namespace POVModule {
         FwIndexType portNum,
         U32 imageSize,
         U32 resolution,
-        const Fw::Buffer& data
+        Fw::Buffer& data
     )
   {
     // Emit event that image data was received
     this->log_ACTIVITY_LO_ImageReceived();
     // Deallocate buffer
-    // Fw::Buffer* dataAddress;
-    // this->deallocate_out(0, *(data));
+    this->deallocate_out(0, data);
   }
 
   // ----------------------------------------------------------------------

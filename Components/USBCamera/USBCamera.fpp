@@ -1,12 +1,6 @@
 module POVModule {
-    @ Takes pictures when told through a port.
-    passive component Camera {
-
-
-        ###############################################################################
-        # Commands
-        ###############################################################################
-
+    @ Test component for a USB camera
+    passive component USBCamera {
 
         ###############################################################################
         # General Ports

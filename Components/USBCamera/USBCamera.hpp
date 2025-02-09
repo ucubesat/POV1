@@ -1,18 +1,18 @@
 // ======================================================================
-// \title  Camera.hpp
+// \title  USBCamera.hpp
 // \author agilsoul
-// \brief  hpp file for Camera component implementation class
+// \brief  hpp file for USBCamera component implementation class
 // ======================================================================
 
-#ifndef POVModule_Camera_HPP
-#define POVModule_Camera_HPP
+#ifndef POVModule_USBCamera_HPP
+#define POVModule_USBCamera_HPP
 
-#include "Components/Camera/CameraComponentAc.hpp"
+#include "Components/USBCamera/USBCameraComponentAc.hpp"
 
 namespace POVModule {
 
-  class Camera :
-    public CameraComponentBase
+  class USBCamera :
+    public USBCameraComponentBase
   {
 
     public:
@@ -21,13 +21,13 @@ namespace POVModule {
       // Component construction and destruction
       // ----------------------------------------------------------------------
 
-      //! Construct Camera object
-      Camera(
+      //! Construct USBCamera object
+      USBCamera(
           const char* const compName //!< The component name
       );
 
-      //! Destroy Camera object
-      ~Camera();
+      //! Destroy USBCamera object
+      ~USBCamera();
 
     PRIVATE:
 
@@ -48,7 +48,6 @@ namespace POVModule {
       U32 numImagesTaken = 0;
 
       Fw::Buffer imgBuffer;
-
   };
 
 }
