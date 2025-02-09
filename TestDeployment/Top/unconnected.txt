@@ -1,0 +1,20 @@
+Topology TestDeployment.TestDeployment:
+  TestDeployment.blockDrv.BufferIn
+  TestDeployment.blockDrv.BufferOut
+  TestDeployment.camera.imageRequest
+  TestDeployment.camera.productRecvIn
+  TestDeployment.camera.productRequestOut
+  TestDeployment.camera.productSendOut
+  TestDeployment.cmdSeq.seqCancelIn
+  TestDeployment.cmdSeq.seqDone
+  TestDeployment.cmdSeq.seqRunIn
+  TestDeployment.cmdSeq.seqStartOut
+  TestDeployment.comQueue.deallocate
+  TestDeployment.comQueue.run
+  TestDeployment.deframer.framedPoll
+  TestDeployment.deframer.schedIn
+  TestDeployment.fileDownlink.FileComplete
+  TestDeployment.fileDownlink.SendFile
+  TestDeployment.health.WdogStroke
+  TestDeployment.tlmSend.TlmGet
+
