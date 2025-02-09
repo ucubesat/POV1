@@ -8,6 +8,7 @@
 #define POVModule_Driver_HPP
 
 #include "Components/Driver/DriverComponentAc.hpp"
+#include <opencv2/opencv.hpp>
 
 namespace POVModule {
 
@@ -41,9 +42,10 @@ namespace POVModule {
       void imageReceive_handler(
         FwIndexType portNum, //!< The port number
         U32 imageSize, //!< Size of the image in bytes
-        U32 resolution, //!< Resolution of the image
+        U32 length, //!< Length of the image
+        U32 width, //!< Width of the image
         Fw::Buffer& data //!< The image buffer to send
-    ) override;
+      ) override;
 
     PRIVATE:
 

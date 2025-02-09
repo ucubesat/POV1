@@ -1,0 +1,771 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3aee1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3aee1.dir/build.make CMakeFiles/cmTC_3aee1.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3aee1.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_3aee1.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_3aee1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aee1.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_3aee1.dir/src.c.o -o cmTC_3aee1 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fde43/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fde43.dir/build.make CMakeFiles/cmTC_fde43.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fde43.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_fde43.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_fde43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde43.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_fde43.dir/src.cxx.o -o cmTC_fde43 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c8fed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c8fed.dir/build.make CMakeFiles/cmTC_c8fed.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8fed.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_c8fed.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_c8fed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8fed.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_c8fed.dir/src.cxx.o -o cmTC_c8fed 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_71783/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_71783.dir/build.make CMakeFiles/cmTC_71783.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71783.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_71783.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_71783
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71783.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_71783.dir/src.c.o -o cmTC_71783 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53db7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53db7.dir/build.make CMakeFiles/cmTC_53db7.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53db7.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_53db7.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_53db7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53db7.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_53db7.dir/src.c.o -o cmTC_53db7 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27f28/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27f28.dir/build.make CMakeFiles/cmTC_27f28.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27f28.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_27f28.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_27f28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27f28.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_27f28.dir/src.c.o -o cmTC_27f28 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f4fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f4fd.dir/build.make CMakeFiles/cmTC_1f4fd.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f4fd.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_1f4fd.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_1f4fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f4fd.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_1f4fd.dir/src.cxx.o -o cmTC_1f4fd 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8a10/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8a10.dir/build.make CMakeFiles/cmTC_d8a10.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8a10.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_d8a10.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_d8a10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a10.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_d8a10.dir/src.c.o -o cmTC_d8a10 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_dotprod.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54879/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54879.dir/build.make CMakeFiles/cmTC_54879.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54879.dir/cpu_neon_dotprod.cpp.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE -std=c++11 -o CMakeFiles/cmTC_54879.dir/cpu_neon_dotprod.cpp.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_dotprod.cpp
+In file included from /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_dotprod.cpp:4:
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function ‘int test()’:
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29513:1: error: inlining failed in call to ‘always_inline’ ‘uint32x4_t vdotq_u32(uint32x4_t, uint8x16_t, uint8x16_t)’: target specific option mismatch
+29513 | vdotq_u32 (uint32x4_t __r, uint8x16_t __a, uint8x16_t __b)
+      | ^~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_dotprod.cpp:12:33: note: called from here
+   12 |     uint32x4_t v_dst = vdotq_u32(v_src, v_m0, v_m1);
+      |                        ~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_54879.dir/build.make:78: CMakeFiles/cmTC_54879.dir/cpu_neon_dotprod.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_54879/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7455d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7455d.dir/build.make CMakeFiles/cmTC_7455d.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7455d.dir/cpu_neon_fp16.cpp.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE -std=c++11 -o CMakeFiles/cmTC_7455d.dir/cpu_neon_fp16.cpp.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp
+In file included from /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:4:
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function ‘void test()’:
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:28:24: note: called from here
+   28 |     d = vfmaq_laneq_f16(d, s1, s2, 0);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29166:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vsubq_f16(float16x8_t, float16x8_t)’: target specific option mismatch
+29166 | vsubq_f16 (float16x8_t __a, float16x8_t __b)
+      | ^~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:27:30: note: called from here
+   27 |     float16x8_t d = vsubq_f16(s1, s1);
+      |                     ~~~~~~~~~^~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:29:24: note: called from here
+   29 |     d = vfmaq_laneq_f16(d, s1, s2, 1);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:30:24: note: called from here
+   30 |     d = vfmaq_laneq_f16(d, s1, s2, 2);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:31:24: note: called from here
+   31 |     d = vfmaq_laneq_f16(d, s1, s2, 3);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:32:24: note: called from here
+   32 |     d = vfmaq_laneq_f16(d, s1, s2, 4);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:33:24: note: called from here
+   33 |     d = vfmaq_laneq_f16(d, s1, s2, 5);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:34:24: note: called from here
+   34 |     d = vfmaq_laneq_f16(d, s1, s2, 6);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:35:24: note: called from here
+   35 |     d = vfmaq_laneq_f16(d, s1, s2, 7);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:28:24: note: called from here
+   28 |     d = vfmaq_laneq_f16(d, s1, s2, 0);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29166:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vsubq_f16(float16x8_t, float16x8_t)’: target specific option mismatch
+29166 | vsubq_f16 (float16x8_t __a, float16x8_t __b)
+      | ^~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:27:30: note: called from here
+   27 |     float16x8_t d = vsubq_f16(s1, s1);
+      |                     ~~~~~~~~~^~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:28:24: note: called from here
+   28 |     d = vfmaq_laneq_f16(d, s1, s2, 0);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29166:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vsubq_f16(float16x8_t, float16x8_t)’: target specific option mismatch
+29166 | vsubq_f16 (float16x8_t __a, float16x8_t __b)
+      | ^~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:27:30: note: called from here
+   27 |     float16x8_t d = vsubq_f16(s1, s1);
+      |                     ~~~~~~~~~^~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:29:24: note: called from here
+   29 |     d = vfmaq_laneq_f16(d, s1, s2, 1);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:30:24: note: called from here
+   30 |     d = vfmaq_laneq_f16(d, s1, s2, 2);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:31:24: note: called from here
+   31 |     d = vfmaq_laneq_f16(d, s1, s2, 3);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:32:24: note: called from here
+   32 |     d = vfmaq_laneq_f16(d, s1, s2, 4);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:33:24: note: called from here
+   33 |     d = vfmaq_laneq_f16(d, s1, s2, 5);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:34:24: note: called from here
+   34 |     d = vfmaq_laneq_f16(d, s1, s2, 6);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29245:1: error: inlining failed in call to ‘always_inline’ ‘float16x8_t vfmaq_laneq_f16(float16x8_t, float16x8_t, float16x8_t, int)’: target specific option mismatch
+29245 | vfmaq_laneq_f16 (float16x8_t __a, float16x8_t __b,
+      | ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_fp16.cpp:35:24: note: called from here
+   35 |     d = vfmaq_laneq_f16(d, s1, s2, 7);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_7455d.dir/build.make:78: CMakeFiles/cmTC_7455d.dir/cpu_neon_fp16.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7455d/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07017/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07017.dir/build.make CMakeFiles/cmTC_07017.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07017.dir/cpu_neon_bf16.cpp.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE -std=c++11 -o CMakeFiles/cmTC_07017.dir/cpu_neon_bf16.cpp.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp
+In file included from /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp:3:
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function ‘bfloat16x8_t vld1q_as_bf16(const float*)’:
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:30644:1: error: inlining failed in call to ‘always_inline’ ‘bfloat16x8_t vcombine_bf16(bfloat16x4_t, bfloat16x4_t)’: target specific option mismatch
+30644 | vcombine_bf16 (bfloat16x4_t __a, bfloat16x4_t __b)
+      | ^~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp:14:25: note: called from here
+   14 |     return vcombine_bf16(vcvt_bf16_f32(s0), vcvt_bf16_f32(s1));
+      |            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:31536:1: error: inlining failed in call to ‘always_inline’ ‘bfloat16x4_t vcvt_bf16_f32(float32x4_t)’: target specific option mismatch
+31536 | vcvt_bf16_f32 (float32x4_t __a)
+      | ^~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp:14:25: note: called from here
+   14 |     return vcombine_bf16(vcvt_bf16_f32(s0), vcvt_bf16_f32(s1));
+      |            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:31536:1: error: inlining failed in call to ‘always_inline’ ‘bfloat16x4_t vcvt_bf16_f32(float32x4_t)’: target specific option mismatch
+31536 | vcvt_bf16_f32 (float32x4_t __a)
+      | ^~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp:14:25: note: called from here
+   14 |     return vcombine_bf16(vcvt_bf16_f32(s0), vcvt_bf16_f32(s1));
+      |            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:30644:1: error: inlining failed in call to ‘always_inline’ ‘bfloat16x8_t vcombine_bf16(bfloat16x4_t, bfloat16x4_t)’: target specific option mismatch
+30644 | vcombine_bf16 (bfloat16x4_t __a, bfloat16x4_t __b)
+      | ^~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp:14:25: note: called from here
+   14 |     return vcombine_bf16(vcvt_bf16_f32(s0), vcvt_bf16_f32(s1));
+      |            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:31536:1: error: inlining failed in call to ‘always_inline’ ‘bfloat16x4_t vcvt_bf16_f32(float32x4_t)’: target specific option mismatch
+31536 | vcvt_bf16_f32 (float32x4_t __a)
+      | ^~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp:14:25: note: called from here
+   14 |     return vcombine_bf16(vcvt_bf16_f32(s0), vcvt_bf16_f32(s1));
+      |            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:31536:1: error: inlining failed in call to ‘always_inline’ ‘bfloat16x4_t vcvt_bf16_f32(float32x4_t)’: target specific option mismatch
+31536 | vcvt_bf16_f32 (float32x4_t __a)
+      | ^~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/cmake/checks/cpu_neon_bf16.cpp:14:25: note: called from here
+   14 |     return vcombine_bf16(vcvt_bf16_f32(s0), vcvt_bf16_f32(s1));
+      |            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_07017.dir/build.make:78: CMakeFiles/cmTC_07017.dir/cpu_neon_bf16.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_07017/fast] Error 2
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3399f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3399f.dir/build.make CMakeFiles/cmTC_3399f.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3399f.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_3399f.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_3399f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3399f.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_3399f.dir/src.c.o -o cmTC_3399f 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aZ6q6W
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d908a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d908a.dir/build.make CMakeFiles/cmTC_d908a.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aZ6q6W'
+Building C object CMakeFiles/cmTC_d908a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_d908a.dir/CheckSymbolExists.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aZ6q6W/CheckSymbolExists.c
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aZ6q6W/CheckSymbolExists.c: In function ‘main’:
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aZ6q6W/CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
+    8 |   return ((int*)(&elf_aux_info))[argc];
+      |                   ^~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aZ6q6W/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aZ6q6W/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[1]: *** [CMakeFiles/cmTC_d908a.dir/build.make:78: CMakeFiles/cmTC_d908a.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-aZ6q6W'
+gmake: *** [Makefile:127: cmTC_d908a/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9604f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9604f.dir/build.make CMakeFiles/cmTC_9604f.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9604f.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_9604f.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_9604f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9604f.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_9604f.dir/src.c.o -o cmTC_9604f 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-documentation’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-documentation'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e8188/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e8188.dir/build.make CMakeFiles/cmTC_e8188.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8188.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-documentation -o CMakeFiles/cmTC_e8188.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-documentation’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_e8188
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8188.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e8188.dir/src.c.o -o cmTC_e8188 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VH2QhX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f645/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f645.dir/build.make CMakeFiles/cmTC_4f645.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VH2QhX'
+Building C object CMakeFiles/cmTC_4f645.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4f645.dir/CheckSymbolExists.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VH2QhX/CheckSymbolExists.c
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VH2QhX/CheckSymbolExists.c: In function ‘main’:
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VH2QhX/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VH2QhX/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VH2QhX/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[1]: *** [CMakeFiles/cmTC_4f645.dir/build.make:78: CMakeFiles/cmTC_4f645.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-VH2QhX'
+gmake: *** [Makefile:127: cmTC_4f645/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-YcWYML
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5dd3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5dd3.dir/build.make CMakeFiles/cmTC_b5dd3.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-YcWYML'
+Building C object CMakeFiles/cmTC_b5dd3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b5dd3.dir/CheckFunctionExists.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-YcWYML/CheckFunctionExists.c
+Linking C executable cmTC_b5dd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5dd3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b5dd3.dir/CheckFunctionExists.c.o -o cmTC_b5dd3 
+/usr/bin/ld: CMakeFiles/cmTC_b5dd3.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b5dd3.dir/build.make:99: cmTC_b5dd3] Error 1
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-YcWYML'
+gmake: *** [Makefile:127: cmTC_b5dd3/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c98c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c98c6.dir/build.make CMakeFiles/cmTC_c98c6.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c98c6.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_c98c6.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_c98c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c98c6.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c98c6.dir/src.cxx.o -o cmTC_c98c6 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c109/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c109.dir/build.make CMakeFiles/cmTC_5c109.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c109.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_5c109.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_5c109
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c109.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5c109.dir/src.cxx.o -o cmTC_5c109 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26305/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26305.dir/build.make CMakeFiles/cmTC_26305.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26305.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_26305.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_26305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26305.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_26305.dir/src.cxx.o -o cmTC_26305 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7527a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7527a.dir/build.make CMakeFiles/cmTC_7527a.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7527a.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_7527a.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_7527a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7527a.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_7527a.dir/src.cxx.o -o cmTC_7527a 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c86b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c86b.dir/build.make CMakeFiles/cmTC_3c86b.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c86b.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_3c86b.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_3c86b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c86b.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3c86b.dir/src.cxx.o -o cmTC_3c86b 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-comma'
+===== BUILD LOG =====
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dbce2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dbce2.dir/build.make CMakeFiles/cmTC_dbce2.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbce2.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-comma -std=c++11 -o CMakeFiles/cmTC_dbce2.dir/src.cxx.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_dbce2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbce2.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_dbce2.dir/src.cxx.o -o cmTC_dbce2 
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Performing C SOURCE FILE Test JNI_INCLUDE_PATH2_OPTIONAL failed with the following output:
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-PwQYIH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0904/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0904.dir/build.make CMakeFiles/cmTC_f0904.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-PwQYIH'
+Building C object CMakeFiles/cmTC_f0904.dir/src.c.o
+/usr/bin/cc -DJNI_INCLUDE_PATH2_OPTIONAL -I/usr/lib/jvm/default-java/include -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f0904.dir/src.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-PwQYIH/src.c
+In file included from /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-PwQYIH/src.c:2:
+/usr/lib/jvm/default-java/include/jni.h:45:10: fatal error: jni_md.h: No such file or directory
+   45 | #include "jni_md.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f0904.dir/build.make:78: CMakeFiles/cmTC_f0904.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-PwQYIH'
+gmake: *** [Makefile:127: cmTC_f0904/fast] Error 2
+
+
+Source file was:
+
+#include <jni.h>
+int main(void) { return 0; }
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-bLFYMK
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5660d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5660d.dir/build.make CMakeFiles/cmTC_5660d.dir/build
+gmake[1]: Entering directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-bLFYMK'
+Building C object CMakeFiles/cmTC_5660d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5660d.dir/CheckIncludeFile.c.o -c /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-bLFYMK/CheckIncludeFile.c
+/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-bLFYMK/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_5660d.dir/build.make:78: CMakeFiles/cmTC_5660d.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/CMakeFiles/CMakeScratch/TryCompile-bLFYMK'
+gmake: *** [Makefile:127: cmTC_5660d/fast] Error 2
+
+
+

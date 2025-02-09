@@ -25,8 +25,19 @@ module POVModule {
         @ Image taken
         event ImageTaken severity activity low id 0 format "Image taken"
 
+        @ Camera detection successful event
+        event CameraDetected severity activity low id 1 format "Camera detected!" 
+
+        @ Camera detection failed event
+        event CameraNotDetected severity warning high id 2 format "Failed to detect a valid camera."
+
         @ Allocation failed event
-        event MemoryAllocationFailed severity warning low id 1 format "Failed to allocate buffer"
+        event MemoryAllocationFailed severity warning high id 3 format "Failed to allocate buffer"
+
+        @ Buffer set failed event
+        event BufferSetFailed (
+                error: string size 100 @< Error from buffer set
+        ) severity warning high id 4 format "Failed to set buffer with error {}"
 
         ###############################################################################
         # Telemetry

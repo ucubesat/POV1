@@ -8,6 +8,7 @@
 #define POVModule_USBCamera_HPP
 
 #include "Components/USBCamera/USBCameraComponentAc.hpp"
+#include <opencv2/opencv.hpp>
 
 namespace POVModule {
 
@@ -43,9 +44,15 @@ namespace POVModule {
       ) override;
 
     PRIVATE:
+
+      //void serializeMat(c)
+
       U32 imageSize = 1024;
       U32 imageResolution = 32;
       U32 numImagesTaken = 0;
+
+      cv::VideoCapture camera;
+      cv::Mat frame;
 
       Fw::Buffer imgBuffer;
   };

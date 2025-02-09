@@ -29,6 +29,9 @@ set(SOURCE_FILES
 
 register_fprime_module()
 
+find_package (OpenCV REQUIRED)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+target_link_libraries( Components_Driver PUBLIC ${OpenCV_LIBS})
 
 ### Unit Tests ###
 # set(UT_SOURCE_FILES
