@@ -31,22 +31,13 @@ namespace POVModule {
   // ----------------------------------------------------------------------
 
   void Driver ::
-    imageReceive_handler(
+    imageFileNameReceive_handler(
         FwIndexType portNum,
-        U32 imageSize,
-        U32 length,
-        U32 width,
-        Fw::Buffer& data
+        const Fw::StringBase& fileName
     )
   {
     // Emit event that image data was received
-    this->log_ACTIVITY_LO_ImageReceived();
-
-    // cv::Mat image(width, length, CV_8UC3, data.getData());
-    // imwrite("captured_imageDriver.jpg", image);
-
-    // Deallocate buffer
-    this->deallocate_out(0, data);
+    this->log_ACTIVITY_LO_ImageFileNameReceived(fileName);
   }
 
   // ----------------------------------------------------------------------

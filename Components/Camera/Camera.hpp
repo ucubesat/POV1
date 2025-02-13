@@ -42,13 +42,6 @@ namespace POVModule {
           FwIndexType portNum //!< The port number
       ) override;
 
-    PRIVATE:
-      U32 imageSize = 1024;
-      U32 imageResolution = 32;
-      U32 numImagesTaken = 0;
-
-      Fw::Buffer imgBuffer;
-
   };
 
 }

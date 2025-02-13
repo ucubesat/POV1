@@ -13,26 +13,30 @@ module POVModule {
         ###############################################################################
 
         @ Port for receiving the image request
-        sync input port imageRequest: ImageReqest
-
-        @ Buffer request port
-        output port allocate: Fw.BufferGet
-
-        @ Buffer deallocate port
-        output port deallocate: Fw.BufferSend
+        sync input port imageRequest: Command
 
         @ Port for sending the buffer back to the requestor
-        output port imageSend: ImageSend
+        output port imageFileNameSend: FileNameSend
+
 
         ###############################################################################
         # Events
         ###############################################################################
 
         @ Image taken
-        event ImageTaken severity activity low id 0 format "Image taken"
+        event ImageTaken severity activity low format "Image taken."
 
-        @ Allocation failed event
-        event MemoryAllocationFailed severity warning low id 1 format "Failed to allocate buffer"
+        @ Camera detection successful event
+        event CameraDetected severity activity low format "Camera detected!" 
+
+        @ Camera detection failed event
+        event CameraNotDetected severity warning high format "Failed to detect a valid camera."
+
+        @ Image write successful event
+        event ImageWritten severity activity low format "Image file written."
+
+        @ Image write failed event
+        event ImageWriteFailed severity warning high format "Failed to save write image to file."
 
         ###############################################################################
         # Telemetry

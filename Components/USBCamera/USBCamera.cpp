@@ -44,42 +44,30 @@ namespace POVModule {
 
       // Take picture
       this->camera.read(this->frame);
-      // Convert frame format to unsigned 8 bit chars
-      this->frame.convertTo(this->frame, CV_8UC3);
-      imwrite("captured_imageUSBCamera.jpg", frame);
 
-      // Request buffer
-      // size_t size = this->frame.step[0] * this->frame.rows;
-      U32 size = 1024; // Temporary size, ignore it
-      this->imgBuffer = this->allocate_out(0, size);
+      // Emit event that image was taken
+      this->log_ACTIVITY_LO_ImageTaken();
 
-      // Check that buffer is correct size
-      if (imgBuffer.getSize() < size)
+      bool writeResult = imwrite("downlink/" + this->IMAGE_FILE_NAME, frame);
+      if (writeResult)
       {
-        // Deallocate the buffer
-        this->deallocate_out(0, imgBuffer);
-        // Emit warning event that buffer was not allocated properly
-        this->log_WARNING_HI_MemoryAllocationFailed();
-      }
-      else 
-      {
-        // Emit event that image was taken
-        this->log_ACTIVITY_LO_ImageTaken();
+        // Emit event that image was written
+        this->log_ACTIVITY_LO_ImageWritten();
+
         // Log telemetry of images taken
         this->tlmWrite_NumImagesTaken(++numImagesTaken);
 
-        // Flatten image data
-        U32 rows = this->frame.rows;
-        U32 cols = this->frame.cols;
-        this->frame = this->frame.reshape(1);
-        // Fill image buffer with data
-        imgBuffer.set(this->frame.data, size);
         // Send the image data to the Driver
-        this->imageSend_out(FwIndexType(0), size, cols, rows, imgBuffer);
+        this->imageFileNameSend_out(FwIndexType(0), Fw::String(this->IMAGE_FILE_NAME.c_str()));
       }
+      else
+      {
+        // Emit warning that image was not written
+        this->log_WARNING_HI_ImageWriteFailed();
+      }
+
+      // Empty out frame
+      this->frame.release();
     }
-
-    
   }
-
 }

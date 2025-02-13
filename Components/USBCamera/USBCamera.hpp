@@ -9,6 +9,7 @@
 
 #include "Components/USBCamera/USBCameraComponentAc.hpp"
 #include <opencv2/opencv.hpp>
+#include <string>
 
 namespace POVModule {
 
@@ -45,16 +46,12 @@ namespace POVModule {
 
     PRIVATE:
 
-      //void serializeMat(c)
-
-      U32 imageSize = 1024;
-      U32 imageResolution = 32;
       U32 numImagesTaken = 0;
 
       cv::VideoCapture camera;
       cv::Mat frame;
 
-      Fw::Buffer imgBuffer;
+      std::string IMAGE_FILE_NAME = "captured_imageUSBCamera.jpg";
   };
 
 }

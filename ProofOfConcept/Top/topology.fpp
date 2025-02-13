@@ -137,12 +137,8 @@ module ProofOfConcept {
 
     connections ProofOfConcept {
       # Add here connections to user-defined components
-      camera.allocate -> bufferManager.bufferGetCallee
-      camera.deallocate -> bufferManager.bufferSendIn
-      camera.imageSend -> driver.imageReceive
-
       driver.imageRequest -> camera.imageRequest
-      driver.deallocate -> bufferManager.bufferSendIn
+      camera.imageFileNameSend -> driver.imageFileNameReceive
     }
 
   }

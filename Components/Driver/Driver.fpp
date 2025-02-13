@@ -12,26 +12,22 @@ module POVModule {
         ###############################################################################
 
         @ Port for sending the image request
-        output port imageRequest: ImageReqest
-        
-        @ Port for receiving the image buffer from the Camera
-        output port imageSend: Fw.BufferSend
+        output port imageRequest: Command
 
-        @ Buffer request port
-        output port deallocate: Fw.BufferSend
-
-        @ Port for receiving image data
-        async input port imageReceive: ImageSend
+        @ Port for receiving image file name
+        async input port imageFileNameReceive: FileNameSend
 
         ###############################################################################
         # Events
         ###############################################################################
 
-        @ Image taken
-        event ImageRequested severity activity low format "Image Request Sent"
+        @ Image command sent
+        event ImageRequested severity activity low format "Image Command Sent."
 
-        @ Image received
-        event ImageReceived severity activity low format "Image buffer received"
+        @ Image filename received
+        event ImageFileNameReceived(
+            filename: string size 100 @< Filename received
+        ) severity activity low format "Received image filename: {}"
 
         ###############################################################################
         # Standard AC Ports: Required for Channels, Events, Commands, and Parameters  #
