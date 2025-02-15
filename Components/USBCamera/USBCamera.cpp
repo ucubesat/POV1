@@ -48,9 +48,13 @@ namespace POVModule {
       // Emit event that image was taken
       this->log_ACTIVITY_LO_ImageTaken();
 
+      // Get filename
       std::string fileName = this->IMAGE_FILE_NAME + std::to_string(this->numImagesTaken) + ".jpg";
 
+      // Write image to filename
       bool writeResult = imwrite("downlink/" + fileName, frame);
+
+      // If image write successful
       if (writeResult)
       {
         // Emit event that image was written
