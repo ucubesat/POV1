@@ -51,7 +51,7 @@ namespace POVModule {
       cv::VideoCapture camera;
       cv::Mat frame;
 
-      std::string IMAGE_FILE_NAME = "captured_imageUSBCamera.jpg";
+      std::string IMAGE_FILE_NAME = "captured_imageUSBCamera";
   };
 
 }

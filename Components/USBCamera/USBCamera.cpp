@@ -48,7 +48,9 @@ namespace POVModule {
       // Emit event that image was taken
       this->log_ACTIVITY_LO_ImageTaken();
 
-      bool writeResult = imwrite("downlink/" + this->IMAGE_FILE_NAME, frame);
+      std::string fileName = this->IMAGE_FILE_NAME + std::to_string(this->numImagesTaken) + ".jpg";
+
+      bool writeResult = imwrite("downlink/" + fileName, frame);
       if (writeResult)
       {
         // Emit event that image was written
@@ -58,7 +60,7 @@ namespace POVModule {
         this->tlmWrite_NumImagesTaken(++numImagesTaken);
 
         // Send the image data to the Driver
-        this->imageFileNameSend_out(FwIndexType(0), Fw::String(this->IMAGE_FILE_NAME.c_str()));
+        this->imageFileNameSend_out(FwIndexType(0), Fw::String(fileName.c_str()));
       }
       else
       {
