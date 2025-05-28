@@ -11,9 +11,9 @@ build-fprime-*
 libs/opencv/build
 
 # Misc
-/venv/
-/fprime-venv/
-/.idea/
-/.vscode/
+venv/
+fprime-venv/
+.idea/
+.vscode/
 .DS_Store
 *.gcov
