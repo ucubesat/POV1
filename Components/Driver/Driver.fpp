@@ -17,6 +17,9 @@ module POVModule {
         @ Port for receiving image file name
         async input port imageFileNameReceive: FileNameSend
 
+        @ Port receiving calls from the rate group
+        async input port rateGroupIn: Svc.Sched
+
         ###############################################################################
         # Events
         ###############################################################################

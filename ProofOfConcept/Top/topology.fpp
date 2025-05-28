@@ -139,6 +139,8 @@ module ProofOfConcept {
       # Add here connections to user-defined components
       driver.imageRequest -> camera.imageRequest
       camera.imageFileNameSend -> driver.imageFileNameReceive
+
+      rateGroup1.RateGroupMemberOut[3] -> driver.rateGroupIn
     }
 
   }

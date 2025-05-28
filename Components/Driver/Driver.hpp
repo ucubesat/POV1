@@ -44,6 +44,14 @@ namespace POVModule {
         const Fw::StringBase& fileName //!< Filename being sent
     ) override;
 
+    //! Handler implementation for rateGroupIn
+    //!
+    //! Port receiving calls from the rate group
+    void rateGroupIn_handler(
+      FwIndexType portNum, //!< The port number
+      U32 context //!< The call order
+    ) override;
+
     PRIVATE:
 
       // ----------------------------------------------------------------------
@@ -55,6 +63,8 @@ namespace POVModule {
           FwOpcodeType opCode, //!< The opcode
           U32 cmdSeq //!< The command sequence number
       ) override;
+
+      U32 counter = 0;
 
   };
 

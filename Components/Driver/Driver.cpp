@@ -40,6 +40,23 @@ namespace POVModule {
     this->log_ACTIVITY_LO_ImageFileNameReceived(fileName);
   }
 
+  void Driver ::
+    rateGroupIn_handler(
+        FwIndexType portNum,
+        U32 context
+    )
+  {
+    
+    if (counter % 4 == 0)
+    {
+      // Send image request command to camera
+      this->imageRequest_out(0);
+      // Emit event that image request was sent
+      this->log_ACTIVITY_LO_ImageRequested();
+    }
+    counter++;
+  }
+
   // ----------------------------------------------------------------------
   // Handler implementations for commands
   // ----------------------------------------------------------------------
@@ -50,12 +67,12 @@ namespace POVModule {
         U32 cmdSeq
     )
   {
-    // Send image request command to camera
-    this->imageRequest_out(0);
-    // Emit event that image request was sent
-    this->log_ACTIVITY_LO_ImageRequested();
+    // // Send image request command to camera
+    // this->imageRequest_out(0);
+    // // Emit event that image request was sent
+    // this->log_ACTIVITY_LO_ImageRequested();
 
-    this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::OK);
+    // this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::OK);
   }
 
 }
