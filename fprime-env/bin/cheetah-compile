@@ -1,0 +1,3 @@
+#!/home/link/POV1/fprime-env/bin/python3
+from Cheetah.CheetahWrapper import _cheetah_compile
+_cheetah_compile()

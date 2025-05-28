@@ -1,0 +1,6 @@
+#!/home/link/POV1/fprime-env/bin/python3
+
+from Cheetah import DirectiveAnalyzer
+
+if __name__ == '__main__':
+    DirectiveAnalyzer.main()
