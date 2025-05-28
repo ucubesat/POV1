@@ -44,6 +44,14 @@ namespace POVModule {
         const Fw::StringBase& fileName //!< Filename being sent
     ) override;
 
+    //! Handler implementation for powerLevelReceive
+    //!
+    //! Port for receiving power levels
+    void powerLevelReceive_handler(
+        FwIndexType portNum, //!< The port number
+        U32 level //!< Power level being sent
+    ) override;
+
     //! Handler implementation for rateGroupIn
     //!
     //! Port receiving calls from the rate group

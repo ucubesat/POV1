@@ -41,6 +41,15 @@ namespace POVModule {
   }
 
   void Driver ::
+    powerLevelReceive_handler(
+        FwIndexType portNum,
+        U32 level
+    )
+  {
+    // TODO
+  }
+
+  void Driver ::
     rateGroupIn_handler(
         FwIndexType portNum,
         U32 context

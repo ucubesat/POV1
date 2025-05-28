@@ -8,4 +8,9 @@ module POVModule {
     port FileNameSend(
         fileName: string size 100 @< Filename being sent
     )
+
+    @ Port for sending power levels
+    port PowerLevel(
+        level: U32 @< Power level being sent
+    )
 }

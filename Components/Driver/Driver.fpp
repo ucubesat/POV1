@@ -20,6 +20,12 @@ module POVModule {
         @ Port receiving calls from the rate group
         async input port rateGroupIn: Svc.Sched
 
+        @ Port for sending power level request
+        output port powerLevelRequest: Command
+
+        @ Port for receiving power levels
+        async input port powerLevelReceive: PowerLevel
+
         ###############################################################################
         # Events
         ###############################################################################
