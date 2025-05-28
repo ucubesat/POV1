@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/3rdparty/ittnotify
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/3rdparty/ittnotify
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,10 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "licenses" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "ittnotify-BSD-3-Clause.txt" FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/3rdparty/ittnotify/src/ittnotify/BSD-3-Clause.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "ittnotify-BSD-3-Clause.txt" FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/3rdparty/ittnotify/src/ittnotify/BSD-3-Clause.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "licenses" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "ittnotify-GPL-2.0-only.txt" FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/3rdparty/ittnotify/src/ittnotify/GPL-2.0-only.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "ittnotify-GPL-2.0-only.txt" FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/3rdparty/ittnotify/src/ittnotify/GPL-2.0-only.txt")
 endif()
 

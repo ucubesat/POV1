@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY OPTIONAL FILES
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_imgproc.so.4.12.0"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_imgproc.so.412"
+    "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_imgproc.so.4.12.0"
+    "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_imgproc.so.412"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgproc.so.4.12.0"
@@ -66,7 +66,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib:"
+           OLD_RPATH "/home/gabewsl/POV1/libs/opencv/build/lib:"
            NEW_RPATH "/usr/local/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -76,62 +76,46 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgproc.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgproc.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgproc.so"
-         RPATH "/usr/local/lib")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_imgproc.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgproc.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgproc.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgproc.so"
-         OLD_RPATH "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib:"
-         NEW_RPATH "/usr/local/lib")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgproc.so")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_imgproc.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/bindings.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/bindings.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/detail/legacy.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/detail/legacy.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc/hal" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc/hal" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc/hal" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/hal/interface.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc/hal" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/hal/interface.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/imgproc.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/imgproc.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/imgproc_c.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/imgproc_c.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/segmentation.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/segmentation.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/types_c.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgproc" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/include/opencv2/imgproc/types_c.h")
 endif()
 

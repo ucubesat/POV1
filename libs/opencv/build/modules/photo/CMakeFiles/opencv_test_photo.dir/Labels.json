@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/ocl/test_denoising.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/ocl/test_denoising.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_cloning.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_cloning.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_decolor.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_decolor.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_denoise_tvl1.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_denoise_tvl1.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_denoising.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_denoising.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_denoising.cuda.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_denoising.cuda.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_hdr.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_hdr.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_inpaint.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_inpaint.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_main.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_npr.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_npr.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/test/test_precomp.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/test/test_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

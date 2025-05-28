@@ -1,12 +1,17 @@
 # CMake generated Testfile for 
-# Source directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x
-# Build directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build
+# Source directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x
+# Build directory: /home/gabewsl/POV1/libs/opencv/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
+subdirs("3rdparty/libjpeg-turbo")
+subdirs("3rdparty/libtiff")
+subdirs("3rdparty/libwebp")
 subdirs("3rdparty/openjpeg")
+subdirs("3rdparty/libpng")
+subdirs("3rdparty/openexr")
+subdirs("3rdparty/ippiw")
 subdirs("3rdparty/protobuf")
-subdirs("3rdparty/carotene/hal")
 subdirs("3rdparty/ittnotify")
 subdirs("include")
 subdirs("modules/.firstpass/calib3d")
@@ -51,7 +56,6 @@ subdirs("modules/java_bindings_generator")
 subdirs("modules/js_bindings_generator")
 subdirs("modules/objc_bindings_generator")
 subdirs("modules/python_bindings_generator")
-subdirs("modules/java")
 subdirs("doc")
 subdirs("data")
 subdirs("apps")

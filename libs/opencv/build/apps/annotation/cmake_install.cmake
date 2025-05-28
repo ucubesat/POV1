@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/apps/annotation
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/apps/annotation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_annotation"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/bin/opencv_annotation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/gabewsl/POV1/libs/opencv/build/bin/opencv_annotation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_annotation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_annotation")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_annotation"
-         OLD_RPATH "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib:"
+         OLD_RPATH "/home/gabewsl/POV1/libs/opencv/build/lib:"
          NEW_RPATH "/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_annotation")

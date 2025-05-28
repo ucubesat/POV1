@@ -3,7 +3,7 @@
 
 #define OPENCV_DATA_INSTALL_PATH "share/opencv4"
 
-#define OPENCV_BUILD_DIR "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build"
+#define OPENCV_BUILD_DIR "/home/gabewsl/POV1/libs/opencv/build"
 
 #define OPENCV_DATA_BUILD_DIR_SEARCH_PATHS \
     "../opencv-4.x/"

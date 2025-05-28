@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/perf/opencl/perf_cascades.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/perf/opencl/perf_cascades.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/perf/opencl/perf_hogdetect.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/perf/opencl/perf_hogdetect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_aruco.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_aruco.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_barcode.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_barcode.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_main.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_qrcode_pipeline.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_qrcode_pipeline.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_precomp.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

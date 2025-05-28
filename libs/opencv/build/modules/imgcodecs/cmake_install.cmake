@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY OPTIONAL FILES
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_imgcodecs.so.4.12.0"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_imgcodecs.so.412"
+    "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_imgcodecs.so.4.12.0"
+    "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_imgcodecs.so.412"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgcodecs.so.4.12.0"
@@ -66,7 +66,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib:"
+           OLD_RPATH "/home/gabewsl/POV1/libs/opencv/build/lib:"
            NEW_RPATH "/usr/local/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -76,46 +76,30 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgcodecs.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgcodecs.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgcodecs.so"
-         RPATH "/usr/local/lib")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_imgcodecs.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgcodecs.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgcodecs.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgcodecs.so"
-         OLD_RPATH "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib:"
-         NEW_RPATH "/usr/local/lib")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_imgcodecs.so")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_imgcodecs.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs_c.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs_c.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/ios.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/ios.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs/legacy" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/legacy/constants_c.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs/legacy" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/legacy/constants_c.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/macosx.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/imgcodecs" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs/macosx.h")
 endif()
 

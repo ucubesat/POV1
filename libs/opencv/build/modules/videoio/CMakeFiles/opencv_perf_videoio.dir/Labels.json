@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_input.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_input.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_main.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_output.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_output.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_camera.impl.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_camera.impl.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_precomp.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/videoio/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

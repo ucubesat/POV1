@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/3rdparty/openjpeg
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/3rdparty/openjpeg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,16 +43,16 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "licenses" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "libopenjp2-README.md" FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/3rdparty/openjpeg/README.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "libopenjp2-README.md" FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/3rdparty/openjpeg/README.md")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "licenses" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "libopenjp2-LICENSE" FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/3rdparty/openjpeg/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "libopenjp2-LICENSE" FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/3rdparty/openjpeg/LICENSE")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/3rdparty/openjpeg/openjp2/cmake_install.cmake")
+  include("/home/gabewsl/POV1/libs/opencv/build/3rdparty/openjpeg/openjp2/cmake_install.cmake")
 
 endif()
 

@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/aruco_dictionary.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/aruco_dictionary.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/barcode.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/barcode.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/face.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/face.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/graphical_code_detector.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/graphical_code_detector.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/objdetect.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/include/opencv2/objdetect/objdetect.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/apriltag_quad_thresh.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/apriltag_quad_thresh.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/zmaxheap.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/zmaxheap.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_board.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_board.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_detector.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_detector.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_dictionary.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_dictionary.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_utils.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_utils.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -146,7 +146,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/charuco_detector.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/charuco_detector.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -164,7 +164,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/abs_decoder.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/abs_decoder.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -173,7 +173,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/hybrid_binarizer.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/hybrid_binarizer.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -182,7 +182,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/super_scale.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/super_scale.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -191,7 +191,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/utils.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/utils.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -200,7 +200,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/ean13_decoder.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/ean13_decoder.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/ean8_decoder.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/ean8_decoder.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -218,7 +218,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/upcean_decoder.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/upcean_decoder.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -227,7 +227,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_detector/bardetect.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_detector/bardetect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/cascadedetect.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/cascadedetect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -245,7 +245,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/cascadedetect_convert.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/cascadedetect_convert.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/detection_based_tracker.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/detection_based_tracker.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -263,7 +263,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/face_detect.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/face_detect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/face_recognize.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/face_recognize.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -281,7 +281,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/graphical_code_detector.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/graphical_code_detector.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -290,7 +290,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/hog.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/hog.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -299,7 +299,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/main.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -308,7 +308,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/qrcode.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/qrcode.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -317,7 +317,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/qrcode_encoder.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/qrcode_encoder.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -326,7 +326,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/opencl/cascadedetect.cl",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/opencl/cascadedetect.cl",
 			"labels" : 
 			[
 				"Main",
@@ -335,7 +335,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/opencl/objdetect_hog.cl",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/opencl/objdetect_hog.cl",
 			"labels" : 
 			[
 				"Main",
@@ -344,7 +344,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/modules/objdetect/opencl_kernels_objdetect.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/build/modules/objdetect/opencl_kernels_objdetect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -353,7 +353,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/modules/objdetect/opencl_kernels_objdetect.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/build/modules/objdetect/opencl_kernels_objdetect.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -362,7 +362,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/apriltag_quad_thresh.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/apriltag_quad_thresh.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -371,7 +371,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/predefined_dictionaries_apriltag.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/predefined_dictionaries_apriltag.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -380,7 +380,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/unionfind.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/unionfind.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -389,7 +389,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/zarray.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/zarray.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -398,7 +398,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/zmaxheap.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/apriltag/zmaxheap.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -407,7 +407,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_utils.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/aruco_utils.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -416,7 +416,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/predefined_dictionaries.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/aruco/predefined_dictionaries.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -425,7 +425,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/abs_decoder.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/abs_decoder.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -434,7 +434,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/hybrid_binarizer.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/hybrid_binarizer.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -443,7 +443,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/super_scale.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/super_scale.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -452,7 +452,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/utils.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/common/utils.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -461,7 +461,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/ean13_decoder.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/ean13_decoder.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -470,7 +470,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/ean8_decoder.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/ean8_decoder.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -479,7 +479,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/upcean_decoder.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_decoder/upcean_decoder.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -488,7 +488,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_detector/bardetect.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/barcode_detector/bardetect.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -497,7 +497,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/cascadedetect.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/cascadedetect.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -506,7 +506,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/graphical_code_detector_impl.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/graphical_code_detector_impl.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -515,7 +515,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/precomp.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/precomp.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -524,7 +524,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objdetect/src/qrcode_encoder_table.inl.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objdetect/src/qrcode_encoder_table.inl.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -533,13 +533,13 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/cvconfig.h"
+			"file" : "/home/gabewsl/POV1/libs/opencv/build/cvconfig.h"
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/opencv2/opencv_modules.hpp"
+			"file" : "/home/gabewsl/POV1/libs/opencv/build/opencv2/opencv_modules.hpp"
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/modules/objdetect/opencl_kernels_objdetect.cpp.rule"
+			"file" : "/home/gabewsl/POV1/libs/opencv/build/modules/objdetect/opencl_kernels_objdetect.cpp.rule"
 		}
 	],
 	"target" : 

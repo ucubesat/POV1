@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/data
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,33 +44,33 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv4/haarcascades" TYPE FILE FILES
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_eye.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalcatface.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalcatface_extended.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalface_alt.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalface_alt2.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalface_default.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_fullbody.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_lefteye_2splits.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_license_plate_rus_16stages.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_lowerbody.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_profileface.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_righteye_2splits.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_russian_plate_number.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_smile.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_upperbody.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_eye.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalcatface.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalcatface_extended.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalface_alt.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalface_alt2.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_frontalface_default.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_fullbody.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_lefteye_2splits.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_license_plate_rus_16stages.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_lowerbody.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_profileface.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_righteye_2splits.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_russian_plate_number.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_smile.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/haarcascades/haarcascade_upperbody.xml"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv4/lbpcascades" TYPE FILE FILES
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_frontalcatface.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_frontalface.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_frontalface_improved.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_profileface.xml"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_silverware.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_frontalcatface.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_frontalface.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_frontalface_improved.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_profileface.xml"
+    "/home/gabewsl/POV1/libs/opencv/opencv-4.x/data/lbpcascades/lbpcascade_silverware.xml"
     )
 endif()
 

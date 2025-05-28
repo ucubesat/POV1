@@ -1,12 +1,6 @@
 file(REMOVE_RECURSE
   "../../bin/opencv_perf_dnn"
   "../../bin/opencv_perf_dnn.pdb"
-  "CMakeFiles/opencv_perf_dnn.dir/layers/cpu_kernels/conv_block.neon.cpp.o"
-  "CMakeFiles/opencv_perf_dnn.dir/layers/cpu_kernels/conv_block.neon.cpp.o.d"
-  "CMakeFiles/opencv_perf_dnn.dir/layers/cpu_kernels/conv_winograd_f63.neon.cpp.o"
-  "CMakeFiles/opencv_perf_dnn.dir/layers/cpu_kernels/conv_winograd_f63.neon.cpp.o.d"
-  "CMakeFiles/opencv_perf_dnn.dir/layers/cpu_kernels/fast_gemm_kernels.neon.cpp.o"
-  "CMakeFiles/opencv_perf_dnn.dir/layers/cpu_kernels/fast_gemm_kernels.neon.cpp.o.d"
   "CMakeFiles/opencv_perf_dnn.dir/perf/perf_caffe.cpp.o"
   "CMakeFiles/opencv_perf_dnn.dir/perf/perf_caffe.cpp.o.d"
   "CMakeFiles/opencv_perf_dnn.dir/perf/perf_common.cpp.o"

@@ -5,11 +5,11 @@
 # Details: https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake
 # -----------------------------------------------
 
-if(NOT EXISTS "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/install_manifest.txt\"")
+if(NOT EXISTS "/home/gabewsl/POV1/libs/opencv/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/gabewsl/POV1/libs/opencv/build/install_manifest.txt\"")
 endif()
 
-file(READ "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/install_manifest.txt" files)
+file(READ "/home/gabewsl/POV1/libs/opencv/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

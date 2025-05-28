@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/python
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/modules/.firstpass/python/bindings/cmake_install.cmake")
-  include("/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/modules/.firstpass/python/test/cmake_install.cmake")
-  include("/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/modules/.firstpass/python/python2/cmake_install.cmake")
-  include("/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/modules/.firstpass/python/python3/cmake_install.cmake")
+  include("/home/gabewsl/POV1/libs/opencv/build/modules/.firstpass/python/bindings/cmake_install.cmake")
+  include("/home/gabewsl/POV1/libs/opencv/build/modules/.firstpass/python/test/cmake_install.cmake")
+  include("/home/gabewsl/POV1/libs/opencv/build/modules/.firstpass/python/python2/cmake_install.cmake")
+  include("/home/gabewsl/POV1/libs/opencv/build/modules/.firstpass/python/python3/cmake_install.cmake")
 
 endif()
 

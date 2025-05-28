@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "../../lib/.412"
   "../../lib/libopencv_photo.pdb"
   "../../lib/libopencv_photo.so"
   "../../lib/libopencv_photo.so.4.12.0"

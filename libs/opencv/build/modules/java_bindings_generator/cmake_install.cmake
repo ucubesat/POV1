@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/java/generator
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/java/generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

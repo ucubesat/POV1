@@ -78,7 +78,6 @@ list(APPEND _cmake_import_check_files_for_opencv_features2d "${_IMPORT_PREFIX}/l
 # Import target "opencv_imgcodecs" for configuration "Release"
 set_property(TARGET opencv_imgcodecs APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_imgcodecs PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "OpenEXR::OpenEXR"
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libopencv_imgcodecs.so.4.12.0"
   IMPORTED_SONAME_RELEASE "libopencv_imgcodecs.so.412"
   )

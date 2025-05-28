@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY OPTIONAL FILES
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_stitching.so.4.12.0"
-    "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_stitching.so.412"
+    "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_stitching.so.4.12.0"
+    "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_stitching.so.412"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.so.4.12.0"
@@ -66,7 +66,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib:"
+           OLD_RPATH "/home/gabewsl/POV1/libs/opencv/build/lib:"
            NEW_RPATH "/usr/local/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -76,78 +76,62 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libs" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.so"
-         RPATH "/usr/local/lib")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib/libopencv_stitching.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.so"
-         OLD_RPATH "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/lib:"
-         NEW_RPATH "/usr/local/lib")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.so")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/gabewsl/POV1/libs/opencv/build/lib/libopencv_stitching.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/blenders.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/blenders.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/camera.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/camera.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/matchers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/matchers.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/util.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/util.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/warpers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/warpers.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching" TYPE FILE OPTIONAL FILES "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/warpers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching" TYPE FILE OPTIONAL FILES "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/stitching/include/opencv2/stitching/warpers.hpp")
 endif()
 

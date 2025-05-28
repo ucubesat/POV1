@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "../../lib/.412"
   "../../lib/libopencv_calib3d.pdb"
   "../../lib/libopencv_calib3d.so"
   "../../lib/libopencv_calib3d.so.4.12.0"
@@ -97,6 +98,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/opencv_calib3d.dir/src/usac/termination.cpp.o.d"
   "CMakeFiles/opencv_calib3d.dir/src/usac/utils.cpp.o"
   "CMakeFiles/opencv_calib3d.dir/src/usac/utils.cpp.o.d"
+  "CMakeFiles/opencv_calib3d.dir/undistort.avx2.cpp.o"
+  "CMakeFiles/opencv_calib3d.dir/undistort.avx2.cpp.o.d"
   "opencl_kernels_calib3d.cpp"
 )
 

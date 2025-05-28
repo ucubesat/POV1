@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/perf/opencl/perf_denoising.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/perf/opencl/perf_denoising.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/perf/perf_cuda.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/perf/perf_cuda.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/perf/perf_hdr.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/perf/perf_hdr.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/perf/perf_inpaint.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/perf/perf_inpaint.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/perf/perf_main.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/photo/perf/perf_precomp.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/photo/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

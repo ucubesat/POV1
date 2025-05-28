@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/objc
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/objc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/build/modules/.firstpass/objc/generator/cmake_install.cmake")
+  include("/home/gabewsl/POV1/libs/opencv/build/modules/.firstpass/objc/generator/cmake_install.cmake")
 
 endif()
 

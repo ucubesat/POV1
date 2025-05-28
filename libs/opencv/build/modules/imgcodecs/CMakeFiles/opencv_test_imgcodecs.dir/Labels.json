@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_animation.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_animation.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_avif.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_avif.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_common.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_common.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_exif.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_exif.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_gif.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_gif.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_grfmt.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_grfmt.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_jpeg.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_jpeg.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_jpegxl.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_jpegxl.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_main.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_png.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_png.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_read_write.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_read_write.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_tiff.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_tiff.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_webp.cpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_webp.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_common.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_common.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_exr.impl.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_exr.impl.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_precomp.hpp",
+			"file" : "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgcodecs/test/test_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

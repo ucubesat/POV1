@@ -1,4 +1,4 @@
-# Install script for directory: /home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/3rdparty/openjpeg/openjp2
+# Install script for directory: /home/gabewsl/POV1/libs/opencv/opencv-4.x/3rdparty/openjpeg/openjp2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

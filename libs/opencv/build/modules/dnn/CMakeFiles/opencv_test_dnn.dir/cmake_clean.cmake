@@ -1,12 +1,6 @@
 file(REMOVE_RECURSE
   "../../bin/opencv_test_dnn"
   "../../bin/opencv_test_dnn.pdb"
-  "CMakeFiles/opencv_test_dnn.dir/layers/cpu_kernels/conv_block.neon.cpp.o"
-  "CMakeFiles/opencv_test_dnn.dir/layers/cpu_kernels/conv_block.neon.cpp.o.d"
-  "CMakeFiles/opencv_test_dnn.dir/layers/cpu_kernels/conv_winograd_f63.neon.cpp.o"
-  "CMakeFiles/opencv_test_dnn.dir/layers/cpu_kernels/conv_winograd_f63.neon.cpp.o.d"
-  "CMakeFiles/opencv_test_dnn.dir/layers/cpu_kernels/fast_gemm_kernels.neon.cpp.o"
-  "CMakeFiles/opencv_test_dnn.dir/layers/cpu_kernels/fast_gemm_kernels.neon.cpp.o.d"
   "CMakeFiles/opencv_test_dnn.dir/test/npy_blob.cpp.o"
   "CMakeFiles/opencv_test_dnn.dir/test/npy_blob.cpp.o.d"
   "CMakeFiles/opencv_test_dnn.dir/test/test_backends.cpp.o"

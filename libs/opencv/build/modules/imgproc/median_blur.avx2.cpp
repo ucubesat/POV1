@@ -1,3 +1,3 @@
 
-#include "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/src/precomp.hpp"
-#include "/home/agilsoul/FPrime-Projects/POV-1/libs/opencv/opencv-4.x/modules/imgproc/src/median_blur.simd.hpp"
+#include "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/src/precomp.hpp"
+#include "/home/gabewsl/POV1/libs/opencv/opencv-4.x/modules/imgproc/src/median_blur.simd.hpp"

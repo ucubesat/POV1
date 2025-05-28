@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "../../lib/.412"
   "../../lib/libopencv_videoio.pdb"
   "../../lib/libopencv_videoio.so"
   "../../lib/libopencv_videoio.so.4.12.0"
@@ -9,8 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/opencv_videoio.dir/src/backend_static.cpp.o.d"
   "CMakeFiles/opencv_videoio.dir/src/cap.cpp.o"
   "CMakeFiles/opencv_videoio.dir/src/cap.cpp.o.d"
-  "CMakeFiles/opencv_videoio.dir/src/cap_ffmpeg.cpp.o"
-  "CMakeFiles/opencv_videoio.dir/src/cap_ffmpeg.cpp.o.d"
   "CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o"
   "CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o.d"
   "CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.o"
